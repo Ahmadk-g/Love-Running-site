@@ -20,11 +20,17 @@ body{
 header{
     background-color: olive;
 }
+
+#logo{
+    font-family: 'Oswald', sans-serif;
+}
+
 main{
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
 }
+
 footer{
     background-color: gray;
 }
