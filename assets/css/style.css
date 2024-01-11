@@ -85,7 +85,7 @@ nav{
 
 /* Main content */
 main{
-    background-color: lightblue;
+    background-color: #ffffff;
     /* Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -112,8 +112,64 @@ main{
     padding-left: 10px;
 }
 
-#cover-text > h2,h3{
+#cover-text > h2, #cover-text>h3{
     color: #ffffff;
+}
+
+/* Reasons Section */
+
+#reasons{
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2{
+    font-size: 280%;;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*#benefits {
+    margin: 20px;
+}*/
+#benefits-physical div, #benefits-mental div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/* circular image */
+#circle-cover-bg{
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    width:90vw;
+    height:90vw;  
+    margin-bottom: 20px;
+    /* Make the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* End of reasons section */
+
+/* added to make the footer work */
+footer{
+    margin-top: 60px;
 }
 
 /* Footer*/
