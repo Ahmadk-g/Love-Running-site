@@ -192,7 +192,8 @@ main {
     padding: 15px;
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row  */
+    Each div will expand to fill the available space on its row.  
+    wraps without media query. */
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
